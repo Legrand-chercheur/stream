@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:stream/widget/miniLecture.dart';
 import 'firebase_options.dart';
 import 'login_register/LoadingScreen.dart';
-import 'login_register/login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'StreamIt',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
